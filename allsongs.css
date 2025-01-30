@@ -1,0 +1,111 @@
+ .seperateCards {
+   background-color: #1e1e1e;
+   /* Dark background for cards */
+   color: #ffffff;
+   /* White text for contrast */
+   border-radius: 10px;
+   /* Rounded corners */
+   overflow: hidden;
+   /* Clip content to rounded corners */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   /* Subtle shadow for depth */
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   /* Smooth hover effect */
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+ }
+
+ .seperateCards:hover {
+   transform: scale(1.05);
+   /* Slight zoom effect on hover */
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+   /* Deeper shadow on hover */
+ }
+
+ .seperateCards img {
+   border-radius: 10px;
+   /* Match card's rounded corners */
+   width: 100%;
+   /* Full width for image */
+   height: auto;
+   /* Maintain aspect ratio */
+   margin-bottom: 15px;
+   /* Space below the image */
+ }
+
+ .seperateCards h4 {
+   font-size: 1.2em;
+   /* Larger font size for the title */
+   margin: 0;
+   /* Remove default margin */
+   color: #ffffff;
+   /* White text */
+   font-weight: bold;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   /* Truncate long song names */
+ }
+
+ .seperateCards p {
+   font-size: 0.9em;
+   /* Slightly smaller font for singer */
+   color: #b3b3b3;
+   /* Light gray text */
+   margin: 5px 0 15px;
+   /* Adjust spacing */
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   /* Truncate long singer names */
+ }
+
+ .seperateCards audio {
+   width: 100%;
+   /* Make audio player full width */
+   margin-top: 10px;
+   /* Space above the audio player */
+   border-radius: 5px;
+   /* Subtle rounding for audio controls */
+ }
+
+ /* Add this CSS to your stylesheet or in a <style> tag */
+ .nav-btn {
+   margin: 0 10px;
+   /* Adjust the gap between buttons */
+ }
+
+ .nav-btn{
+  border-radius:5px;
+  background-color:#222121;
+  color:white; 
+  opacity:0.7;
+ }
+
+ .seperateCards {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid black;
+   width: 325px;
+   height: auto;
+   text-align: center;
+   margin-bottom: 20px;
+   /* Adjust the gap between song cards */
+ }
+
+ .seperateCards audio {
+   margin: 10px 0;
+   /* Adjust the gap around the audio element */
+ }
+
+ .seperateCards .button-container {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   /* Adjust the gap above the buttons */
+ }
+ 

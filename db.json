@@ -1,0 +1,472 @@
+{
+    "song": [
+        {
+            "moviename": "sankarnthi vasthunam",
+            "songs": [
+                {
+                    "songname": "Godari Gattu",
+                    "url": "./Godari_Gattu.mp3",
+                    "singer": "Ramana Gogula",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Blockbuster Pongal",
+                    "url": "./Blockbuster_Pongal.mp3",
+                    "singer": "Bheems Ceciroleo",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Mennu",
+                    "url": "./Meenu.mp3",
+                    "singer": "Bheems Ceciroleo",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Lallayire",
+                    "url": "./Lallayire.mp3",
+                    "singer": "Bheems Ceciroleo",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Guruvarya",
+                    "url": "./Guruvarya.mp3",
+                    "singer": "Ramana Gogula",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Chinna Raju",
+                    "url": "./Chinna Raju.mp3",
+                    "singer": "Bheems Ceciroleo",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIF.2ZsknaU6BTu6BWBqfyt6QA&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "pushpa 2",
+            "songs": [
+                {
+                    "songname": "Peelings",
+                    "url": "./Peeli_ngs.mp3",
+                    "singer": "Kandukoori",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Sooseki",
+                    "url": "./Soo_seki.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Kissik",
+                    "url": "./Kissik.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Dammunte Pattukora",
+                    "url": "./Dammunte Pattukora.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Pushpa Pushpaa",
+                    "url": "./Pushpa Pushpaa.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Gango Renuka Thalli",
+                    "url": "./Gango Renuka Thalli.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.RIfUoZFeV_LOd5hAAkta9AHaEW&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Thandal",
+            "songs": [
+                {
+                    "songname": "Bujji Thalli",
+                    "url": "./Bujji Thalli.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YvO3TjKrNhXPuLBy56w58wHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Namo Namah Shivaya",
+                    "url": "./Namo_Namah_Shivaya.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YvO3TjKrNhXPuLBy56w58wHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Essence of Thandel",
+                    "url": "./Essence of Thandel.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YvO3TjKrNhXPuLBy56w58wHaEK&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Dear Comrade",
+            "songs": [
+                {
+                    "songname": "Gira Gira Gira",
+                    "url": "./Gira Gira Gira.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Yetu Pone",
+                    "url": "./Yetu Pone.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Nee Neeli Kannullona",
+                    "url": "./Nee Neeli Kannullona.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "O Kalala Kathala",
+                    "url": "./O Kalala Kathala.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Kadalalle",
+                    "url": "./Kadalalle.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Maama Choodaro",
+                    "url": "./Maama Choodaro.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse2.mm.bing.net/th?id=OIP.70aPhAxxR9636BZU1dU-ZAHaEK&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Orange",
+            "songs": [
+                {
+                    "songname": "Rooba Rooba",
+                    "url": "./Rooba Rooba.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.FEYjI6-Ma-_QnGa0ybTb_QHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Nenu Nuvvantu",
+                    "url": "./Nenu Nuvvantu.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.FEYjI6-Ma-_QnGa0ybTb_QHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Chilipigaa",
+                    "url": "./Chilipiga.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.FEYjI6-Ma-_QnGa0ybTb_QHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Hello Rammante",
+                    "url": "./Hello Rammante.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.FEYjI6-Ma-_QnGa0ybTb_QHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Ola Olaala Ala",
+                    "url": "./Ola Olaala Ala.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.FEYjI6-Ma-_QnGa0ybTb_QHaHa&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Ishq",
+            "songs": [
+                {
+                    "songname": "Chinnadana Neekosam",
+                    "url": "./Chinnadana Neekosam.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Oh Priya Priya",
+                    "url": "./Oh Priya Priya.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Sutiga Choodaku",
+                    "url": "./Sutiga Choodaku.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Lachchamma",
+                    "url": "./Lachchamma.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Edho Edho",
+                    "url": "./Edho Edho.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Lachhamma (Rubens Club Mix)",
+                    "url": "./Lachhamma (Rubens Club Mix).mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.YHDHRvH2EbuuEGwLKCRxPwHaEo&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Animal",
+            "songs": [
+                {
+                    "songname": "Evarevaro",
+                    "url": "./Evarevaro.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Ammayi",
+                    "url": "./Ammayi.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Nanna Nuv Naa Pranam",
+                    "url": "./Nanna Nuv Naa Pranam.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Yaalo Yaalaa",
+                    "url": "./Yaalo Yaalaa.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Abrars Entry Jamal Kudu",
+                    "url": "./Abrars Entry Jamal Kudu.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Ney Veyrey",
+                    "url": "./Ney Veyrey.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.iCSUZAE1lB6bYG-sxYtsywHaFj&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Arjun Reddy",
+            "songs": [
+                {
+                    "songname": "Emitemitemito",
+                    "url": "./Emitemitemito.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Madhurame",
+                    "url": "./Madhurame.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Oopiri Aaguthunnadhey",
+                    "url": "./Oopiri Aaguthunnadhey.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Telisiney Na Nuvvey",
+                    "url": "./Telisiney Na Nuvvey.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Mari Mari",
+                    "url": "./Mari Mari.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Gundelonaa",
+                    "url": "./Gundelonaa.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.J8zS98X_QkmCnM_oVbTUeAHaHa&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Mr.Perfect",
+            "songs": [
+                {
+                    "songname": "Light Theesko",
+                    "url": "./Light Theesko.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Badulu Tochani",
+                    "url": "./Badulu Tochani.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Aggipulla Lanti",
+                    "url": "./Aggipulla Lanti.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Chali Chaliga",
+                    "url": "./Chali Chaliga.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Akasham Baddalaina",
+                    "url": "./Akasham Baddalaina.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Chali Chaliga",
+                    "url": "./Chali Chaliga.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.BYQ3kdt0VSmBoLTPQMRdigHaJ4&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Jalsa",
+            "songs": [
+                {
+                    "songname": "jalsa",
+                    "url": "./Jalsa.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Jennifer Lopez",
+                    "url": "./Jennifer Lopez.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "My Heart Is Beating",
+                    "url": "./My Heart Is Beating.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Gaallo Thelinattunde",
+                    "url": "./Gaallo Thelinattunde.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "You & I",
+                    "url": "./You & I.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Chalore Chalore Chal",
+                    "url": "./Chalore Chalore Chal.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse4.mm.bing.net/th?id=OIP.smc3_17cFxli27ZDdQxlfQHaEK&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Devara",
+            "songs": [
+                {
+                    "songname": "Chuttamalle",
+                    "url": "./Chuttamalle.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Fear Song",
+                    "url": "./Fear Song.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Ayudha Pooja",
+                    "url": "./Ayudha Pooja.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Daavudi",
+                    "url": "./Daavudi.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Red Sea",
+                    "url": "./Red Sea.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Devara Thandavam",
+                    "url": "./Devara Thandavam.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse1.mm.bing.net/th?id=OIP.rU3haQ-CDKsP8ORXH7gAHAHaEK&pid=Api&P=0&h=220"
+                }
+            ]
+        },
+        {
+            "moviename": "Arya 2",
+            "songs": [
+                {
+                    "songname": "My Love Is Gone",
+                    "url": "./My Love Is Gone.mp3",
+                    "singer": "Devi Sri Prasad",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Uppenantha",
+                    "url": "./Uppenantha.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Baby He Loves You",
+                    "url": "./Baby He Loves You.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Mr. Perfect",
+                    "url": "./Mr. Perfect.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Ringa Ringa",
+                    "url": "./Ringa Ringa.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                },
+                {
+                    "songname": "Karige Loga",
+                    "url": "./Karige Loga.mp3",
+                    "singer": "Shreya Ghoshal",
+                    "Album": "https://tse3.mm.bing.net/th?id=OIP.ee6Oa17rvW35a70_KK8mawHaEK&pid=Api&P=0&h=220"
+                }
+            ]
+        }
+    ]
+}

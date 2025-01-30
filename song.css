@@ -1,0 +1,71 @@
+/* Add a gradient background to the entire page */
+body {
+    background: linear-gradient(135deg, #121212, #282828); /* Dark Spotify-like gradient */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+/* Light-themed card style */
+.mainCart {
+    background-color: #ada2a2; /* Light gray for the card background */
+    color: #333; /* Dark text for contrast */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.mainCart:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background-color: #d4bfbf; /* Slightly darker on hover */
+    color: #111; /* Even darker text on hover for better readability */
+}
+.mainCart > img{
+    border-radius: 10px;
+}
+
+
+.mainCart h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333; /* Darker text for headings */
+}
+
+.mainCart p {
+    font-size: 1em;
+    opacity: 0.8;
+    color: #555; /* Softer dark color for paragraph text */
+}
+
+/* Container to center the cards */
+#movieContainer {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adjust body spacing for a centered layout */
+body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Add spacing and centering for the card grid */
+#movieContainer {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#logo{
+    margin-left:60px;
+}

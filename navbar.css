@@ -1,0 +1,24 @@
+/* Custom Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background: #343a40;
+  padding: 20px 0;
+}
