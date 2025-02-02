@@ -1,4 +1,49 @@
 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Songs</title>
+    
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="song.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> -->
+
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-light bg-light p-2">
+        <div class="container-fluid">
+            <img id="logo" src="./logo.png" alt="" width="80px">
+            <form class="d-flex" style="gap:15px;">
+                <button id="fav" onclick="window.location.href='favorite.html'"><i class="fa-regular fa-heart"></i></button> -->
+                <!-- <button id="fav"><i class="fa-regular fa-heart"></i></button> -->
+                <!-- <input class="form-control me-2" type="search" id="searchInput" placeholder="Search Movie Name">
+                <button class="btn btn-outline-success" type="button" onclick="searchSongs()">Search</button>
+            </form>
+        </div>
+    </nav> -->
+
+    <!-- Movie Card Container -->
+    <!-- <div id="movieCard" class="container mt-4 d-flex justify-content-center">
+        <!-- Movie card will be displayed here -->
+    <!-- </div> --> 
+
+    <!-- Bootstrap JS Bundle -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="song.js"></script>
+
+</body>
+</html> -->
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,53 +54,46 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="song.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-light bg-light p-2">
-        <div class="container-fluid">
-            <img id="logo" src="./logo.png" alt="" width="80px">
-            <!-- <a class="navbar-brand">logo</a> -->
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" id="searchInput" placeholder="Search">
-                <button class="btn btn-outline-success" type="button" onclick="searchSongs()">Search</button>
-            </form>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./logo.png" alt="Logo" width="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex ms-auto">
+                    <button id="fav" class="btn btn-light me-2" onclick="window.location.href='favorite.html'">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <input class="form-control me-2" type="search" id="searchInput" placeholder="Search Movie Name">
+                    <button class="btn btn-outline-success" type="button" onclick="searchSongs()">Search</button>
+                </form>
+            </div>
         </div>
     </nav>
 
-    <!-- Movie Card Container -->
-    <div id="movieCard" class="container mt-4 d-flex justify-content-center">
-        <!-- Movie card will be displayed here -->
+    <!-- Movie Cards Container -->
+    <div id="movieContainer" class="container mt-4">
+        <div class="row" id="movieRow">
+            <!-- Movie cards will be displayed here dynamically -->
+        </div>
     </div>
 
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="song.js"></script>
 
 </body>
 </html>
 
 
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="song.css">
-</head>
-<body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand">Navbar</a>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    <script src="song.js"></script>
-</body>
-</html> -->

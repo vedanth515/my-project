@@ -28,42 +28,6 @@
 //   `
     
 
-//   // Add the song data to the container
-//   seperatesongs.append(songsData);
-//   document.body.append(seperatesongs);
-// });
-
-// // Function to change the song (either next or previous)
-// function changeSong(direction, index) {
-//   let audioElement = document.getElementById(`audio-${index}`);
-//   let nextIndex;
-
-//   // Determine the next or previous song
-//   if (direction === "next") {
-//     nextIndex = index + 1 < allsongsData.length ? index + 1 : 0; // Loop back to the first song if at the end
-//   } else if (direction === "prev") {
-//     nextIndex = index - 1 >= 0 ? index - 1 : allsongsData.length - 1; // Loop back to the last song if at the beginning
-//   }
-
-//   // Update the current song's audio element to the next song
-//   let nextSong = allsongsData[nextIndex];
-//   let newAudioElement = document.getElementById(`audio-${nextIndex}`);
-//   newAudioElement.src = nextSong.url; // Update the audio source
-
-//   // Update song details (title, singer, etc.)
-//   let songDetails = seperatesongs.querySelectorAll('.seperateCards')[nextIndex];
-//   songDetails.querySelector("h4").textContent = nextSong.songname;
-//   songDetails.querySelector("p").textContent = nextSong.singer;
-
-//   // Stop the current song from playing
-//   audioElement.pause();
-//   audioElement.currentTime = 0; // Reset the current time of the previous song
-
-//   // Play the new song automatically
-//   newAudioElement.play();
-// }
-
-
 let seperatesongs = document.createElement("div");
 seperatesongs.style.display = "flex";
 seperatesongs.style.flexWrap = "wrap";
@@ -87,7 +51,7 @@ allsongsData.forEach((ele, index) => {
   songsData.innerHTML = `
     <img src="${ele.Album}" width="325px" height="325px"/>
     <h4>${ele.songname}</h4>
-    <p>${ele.singer}</p>
+    <p>${ele.music}</p>
     <audio controls src="${ele.url}" type="audio/mp3" id="audio-${index}"></audio>
     <div class="audio" style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
       <button class="nav-btn" onclick="changeSong('prev', ${index})">Prev</button>
@@ -131,6 +95,7 @@ function toggleRepeat(index) {
   let audioElement = document.getElementById(`audio-${index}`);
   audioElement.loop = !audioElement.loop;
   alert(`Repeat mode: ${audioElement.loop ? 'ON' : 'OFF'}`);
+  
 }
 
 // Function to play a new song
@@ -148,3 +113,25 @@ function playNewSong(currentIndex, newIndex) {
   newAudio.src = nextSong.url;
   newAudio.play();
 }
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   const currentMovie = JSON.parse(localStorage.getItem('currentMovie'));
+//   const songs = currentMovie.songs;
+//   const movieName = currentMovie.moviename;
+
+//   // Function to update play count
+//   function updatePlayCount(songName) {
+//       const key = `${movieName}_${songName}`;
+//       let playCounts = JSON.parse(localStorage.getItem('playCounts')) || {};
+//       playCounts[key] = (playCounts[key] || 0) + 1;
+//       localStorage.setItem('playCounts', JSON.stringify(playCounts));
+//   }
+
+//   // Example play button event listener (adjust based on your actual play button setup)
+//   document.querySelectorAll('.play-button').forEach(button => {
+//       button.addEventListener('click', function() {
+//           const songName = this.dataset.songname;
+//           updatePlayCount(songName);
+//       });
+//   });
+// });
