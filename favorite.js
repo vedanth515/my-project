@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', async function() {
     async function loadFavorites() {
         try {
-            const response = await fetch('http://localhost:3000/song');
+            const response = await fetch('https://tender-verbose-class.glitch.me/song');
             const allMovies = await response.json();
             const playCounts = JSON.parse(localStorage.getItem('playCounts')) || {};
 

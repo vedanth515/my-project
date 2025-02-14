@@ -52,7 +52,7 @@ let allMovies = []; // Store all fetched movie data
 
 // Fetch movie data from API
 async function songs() {
-    let song = await fetch("http://localhost:3000/song");
+    let song = await fetch("https://tender-verbose-class.glitch.me/song");
     let songdata = await song.json();
     allMovies = songdata; // Store all movies for search functionality
 
