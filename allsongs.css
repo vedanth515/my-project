@@ -1,116 +1,165 @@
- body{
-  background-color:#2e2d2d;
- }
- 
- 
- .seperateCards {
-   background-color: #1e1e1e;
-   /* Dark background for cards */
-   color: #ffffff;
-   /* White text for contrast */
-   border-radius: 10px;
-   /* Rounded corners */
-   overflow: hidden;
-   /* Clip content to rounded corners */
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   /* Subtle shadow for depth */
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
-   /* Smooth hover effect */
-   text-align: left;
-   display: flex;
-   flex-direction: column;
-   padding: 15px;
- }
+/* body {
+  background-color: #181818;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
 
- .seperateCards:hover {
-   transform: scale(1.05);
-   /* Slight zoom effect on hover */
-   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-   /* Deeper shadow on hover */
- }
+.header {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  background-color: #121212;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
 
- .seperateCards img {
-   border-radius: 10px;
-   /* Match card's rounded corners */
-   width: 100%;
-   /* Full width for image */
-   height: auto;
-   /* Maintain aspect ratio */
-   margin-bottom: 15px;
-   /* Space below the image */
- }
+.songs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
 
- .seperateCards h4 {
-   font-size: 1.2em;
-   /* Larger font size for the title */
-   margin: 0;
-   /* Remove default margin */
-   color: #ffffff;
-   /* White text */
-   font-weight: bold;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   /* Truncate long song names */
- }
+.seperateCards {
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
- .seperateCards p {
-   font-size: 0.9em;
-   /* Slightly smaller font for singer */
-   color: #b3b3b3;
-   /* Light gray text */
-   margin: 5px 0 15px;
-   /* Adjust spacing */
-   overflow: hidden;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   /* Truncate long singer names */
- }
+.seperateCards:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
 
- .seperateCards audio {
-   width: 100%;
-   /* Make audio player full width */
-   margin-top: 10px;
-   /* Space above the audio player */
-   border-radius: 5px;
-   /* Subtle rounding for audio controls */
- }
+.seperateCards img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
- /* Add this CSS to your stylesheet or in a <style> tag */
- .nav-btn {
-   margin: 0 10px;
-   /* Adjust the gap between buttons */
- }
+.seperateCards h4,
+.seperateCards p {
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
- .nav-btn{
-  border-radius:5px;
-  background-color:#222121;
-  color:white; 
-  opacity:0.7;
- }
+.seperateCards p {
+  color: #bbbbbb;
+}
 
- .seperateCards {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 2px solid black;
-   width: 325px;
-   height: auto;
-   text-align: center;
-   margin-bottom: 20px;
-   /* Adjust the gap between song cards */
- }
+.seperateCards audio {
+  width: 90%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
 
- .seperateCards audio {
-   margin: 10px 0;
-   /* Adjust the gap around the audio element */
- }
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0 20px;
+}
 
- .seperateCards .button-container {
-   display: flex;
-   justify-content: center;
-   margin-top: 10px;
-   /* Adjust the gap above the buttons */
- }
- 
+.nav-btn {
+  padding: 5px 10px;
+  background-color: #282828;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  opacity: 0.8;
+}
+
+.nav-btn:hover {
+  background-color: #383838;
+} */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.player-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 20px 120px;
+  gap: 40px;
+}
+
+.song-card {
+  background-color:rgb(41, 31, 27);
+  border-radius: 12px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.song-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.song-card h4, .song-card p {
+  margin: 5px 0;
+}
+
+.bottom-player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  padding: 27px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around !important;
+  border-top: 1px solid #333;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 1.2rem;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  color: #fff;
+}
+
+#progressBar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+}
+
+input[type="range"] {
+  accent-color: #1db954;
+}
+

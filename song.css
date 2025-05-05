@@ -1,105 +1,162 @@
-/* Add a gradient background to the entire page */
+/* Base Styles */
 body {
-    background: linear-gradient(135deg, #121212, #282828); /* Dark Spotify-like gradient */
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: white;
+    background: linear-gradient(135deg, #121212, #282828);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+.navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#logo {
+    width: 80px;
+}
 
-/* Light-themed card style */
-.mainCart {
-    background-color: #7b7f81; /* Light gray for the card background */
-    color: #333; /* Dark text for contrast */
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* Search Form */
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#searchInput {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    width: 250px;
+}
+
+.search-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    text-align: center; 
+    font-size: 14px;
+    transition: background-color 0.3s;
 }
 
-.mainCart:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-    background-color: whitesmoke; /* Slightly darker on hover */
-    color: #111; /* Even darker text on hover for better readability */
+.search-button:hover {
+    background-color: #218838;
 }
 
-.mainCart > img {
-    border-radius: 14px;
-} 
-
-.mainCart h4 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: rgb(40, 33, 33); /* Darker text for headings */
-} 
-
-.mainCart p {
-    font-size: 15px;
-    opacity: 0.9;
-    color: #2a2222; /* Softer dark color for paragraph text */
-}
-
-/* Container to center the cards */
-#movieContainer {
+#fav {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(208, 226, 224, 0.841);
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Adjust body spacing for a centered layout */
-body {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} 
-
-/* Add spacing and centering for the card grid */
-#movieContainer {
-    margin: 50px auto;
+/* Movie Container */
+.movie-container {
+    width: 100%;
+    max-width: 1050px;
+    margin: 40px auto;
     padding: 20px;
-    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-#logo {
-    margin-left: 60px;
+/* Movie Cards */
+.mainCart {
+    background-color: #d7dedeec;
+    color: #333;
+    padding: 15px;
+    border-radius: 11.5px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 315px;
+    width:315px !important;
+    
 }
 
-form > #fav {
-    border-radius: 50%;
-    background-color: rgba(208, 226, 224, 0.841);
-} 
+.mainCart:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    color: #111;
+}
 
-@media (min-width: 400px) and (max-width: 768px) {
-    .bg-light {
-        width: 711px;
+.mainCart img {
+    width: 100%;
+    height: 250px; /* Control image height properly */
+    object-fit:fill;
+    border-radius: 10px;
+}
+
+.mainCart h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 12px 0 5px;
+    color: rgb(40, 33, 33);
+}
+
+.mainCart p {
+    font-size: 14px;
+    color: #2a2222;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Responsive for tablet and mobile */
+@media (max-width: 992px) {
+    .movie-container {
+        grid-template-columns: repeat(2, 1fr);
     }
-    #movieContainer {
+}
+
+@media (max-width: 600px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .search-form {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
         width: 100%;
-        height: auto;
     }
-    .mainCart {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
-@media (min-width: 769px) and (max-width: 900px) {
-    .bg-light {
-        width: 878px;
+    #searchInput {
+        width: 80%;
     }
-}
 
-@media (min-width: 901px) and (max-width: 1024px) {
-    .bg-light {
-        width: 939px;
+    .movie-container {
+        grid-template-columns: 1fr;
     }
 }
