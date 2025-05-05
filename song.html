@@ -1,35 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Songs</title>
-    <link rel="stylesheet" href="song.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Songs</title>
+  <link rel="stylesheet" href="song.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
 
 <body>
 
-    <nav class="navbar">
-        <div class="navbar-container">
-            <img id="logo" src="./logo.png" alt="Logo">
-            <form class="search-form">
-                <button id="fav" type="button" onclick="window.location.href='favorite.html'">
-                    <i class="fa-regular fa-heart"></i>
-                </button>
-                <input type="search" id="searchInput" placeholder="Search Movie Name">
-                <button type="button" class="search-button" onclick="searchSongs()">Search</button>
-            </form>
-        </div>
-    </nav>
+  <!-- Loader -->
+  <div id="loader" class="loader-container">
+    <div class="spinner"></div>
+  </div>
 
-    <div id="movieContainer" class="movie-container">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <img id="logo" src="./logo.png" alt="Logo" />
+      <form class="search-form">
+        <button id="fav" type="button" onclick="window.location.href='favorite.html'">
+          <i class="fa-regular fa-heart"></i>
+        </button>
+        <input type="search" id="searchInput" placeholder="Search Movie Name" />
+        <button type="button" class="search-button" onclick="searchSongs()">Search</button>
+      </form>
     </div>
+  </nav>
 
-    <script src="song.js"></script>
+  <!-- Movie Display Container -->
+  <div id="movieContainer" class="movie-container"></div>
 
+  <script src="song.js"></script>
 </body>
 
 </html>
+
