@@ -1,9 +1,9 @@
 /* Base Styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    color: white;
-    background: linear-gradient(135deg, #121212, #282828);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d2d2d;
+    background: linear-gradient(to bottom right, #fdfcfb, #d2e9ef);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,11 +11,14 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .navbar-container {
@@ -24,31 +27,38 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 #logo {
-    width: 80px;
+    width: 75px;
+    height: auto;
 }
 
 /* Search Form */
 .search-form {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #searchInput {
-    padding: 8px 12px;
+    padding: 8px 14px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    outline: none;
     font-size: 14px;
     width: 250px;
+    background-color: #fdfdfd;
+    color: #444;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .search-button {
     padding: 8px 16px;
-    background-color: #28a745;
+    background-color: #5aa897;
     color: white;
     border: none;
     border-radius: 8px;
@@ -58,7 +68,7 @@ body {
 }
 
 .search-button:hover {
-    background-color: #218838;
+    background-color: #4e988a;
 }
 
 #fav {
@@ -66,12 +76,17 @@ body {
     height: 40px;
     border: none;
     border-radius: 50%;
-    background-color: rgba(208, 226, 224, 0.841);
+    background-color: #e0f0ea;
     cursor: pointer;
     font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s;
+}
+
+#fav:hover {
+    background-color: #d0e6de;
 }
 
 /* Movie Container */
@@ -87,51 +102,49 @@ body {
 
 /* Movie Cards */
 .mainCart {
-    background-color: #d7dedeec;
+    background-color: #fffdfb;
     color: #333;
-    padding: 15px;
-    border-radius: 11.5px !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
     cursor: pointer;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 315px;
-    width:315px !important;
-    
+    width: 315px;
+    border: 1px solid grey !important;
 }
 
 .mainCart:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    background-color: whitesmoke;
-    color: #111;
+    transform: scale(1.04);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
 }
 
 .mainCart img {
     width: 100%;
-    height: 250px; /* Control image height properly */
-    object-fit:fill;
+    height: 250px;
+    object-fit: fill;
     border-radius: 10px;
 }
 
 .mainCart h4 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
-    margin: 12px 0 5px;
-    color: rgb(40, 33, 33);
+    margin: 10px 0 4px;
+    color: #1f2d3d;
 }
 
 .mainCart p {
     font-size: 14px;
-    color: #2a2222;
-    opacity: 0.9;
+    color: #5a5a5a;
     margin: 0;
 }
 
-/* Responsive for tablet and mobile */
+/* Responsive Design */
 @media (max-width: 992px) {
     .movie-container {
         grid-template-columns: repeat(2, 1fr);
@@ -142,25 +155,27 @@ body {
     .navbar-container {
         flex-direction: column;
         align-items: center;
-        text-align: center;
     }
 
     .search-form {
-        margin-top: 10px;
         flex-direction: column;
         gap: 10px;
         width: 100%;
+        align-items: center;
     }
 
     #searchInput {
-        width: 80%;
+        width: 90%;
+    }
+
+    .search-button {
+        width: 60%;
     }
 
     .movie-container {
         grid-template-columns: 1fr;
     }
 }
-
 
 /* Loader Styles */
 .loader-container {
@@ -169,7 +184,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #121212e6; /* dark overlay */
+    background: rgba(250, 250, 250, 0.95);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,13 +194,13 @@ body {
 .spinner {
     width: 60px;
     height: 60px;
-    border: 6px solid #ccc;
-    border-top: 6px solid #28a745;
+    border: 6px solid #e2e6ea;
+    border-top: 6px solid #5aa897;
     border-radius: 50%;
-    animation: spin 2s linear infinite;
+    animation: spin 1.2s linear infinite;
 }
 
 @keyframes spin {
-    0%   { transform: rotate(0deg); }
+    0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
